@@ -1,0 +1,19 @@
+    <table id="exportTable" class="table table-hover">
+        <thead>
+            <tr>
+                <th>Posição</th>
+                <th>Nome</th>
+                <th>Pontos</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr ng-repeat="resultado in resultados">
+				<td>{{resultado.posicao}}</td>
+                <td>{{resultado.nome}}</td>
+                <td>{{resultado.acertos}}</td>
+            </tr>
+        </tbody>
+    </table>
+	<div class="panel-footer">
+        <a href="#menu" class="btn btn-warning pb-artist-albums">Voltar</a>
+    </div>
