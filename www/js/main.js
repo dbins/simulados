@@ -63,8 +63,8 @@ var app = {
         document.addEventListener('deviceready', this.onDeviceReady, false);
     },
     onDeviceReady: function() {
-		alert('iniciou o phonegap');
-        navigator.geolocation.getCurrentPosition(app.onSuccess, app.onErr);
+		//alert('iniciou o phonegap');
+        //navigator.geolocation.getCurrentPosition(app.onSuccess, app.onErr);
     },
     onErr: function(error)
     {
